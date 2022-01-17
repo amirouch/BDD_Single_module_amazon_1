@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.92">
+    <testcase classname="Amazon user should signIn/ Login on application or Amazon Login functionality check" name="Amazon login signIn functionality checking using valid credential" time="13.672">
+        <system-out>
+            <![CDATA[Given user on amazon Sign-In page...........................................passed
+And user enter valid "ammer501@hotmail.com" email address or phone number in username field.passed
+And user click on continue button...........................................passed
+And user enter valid password "amirqa2021" in password Field................passed
+When user click on Sign-In button...........................................passed
+And user should be able to see the valid "Hello, Amirouche" user name.......passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

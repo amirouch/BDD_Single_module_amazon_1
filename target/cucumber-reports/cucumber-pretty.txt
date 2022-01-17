@@ -1,0 +1,9 @@
+
+@mahmud
+Scenario: Amazon login signIn functionality checking using valid credential                   # src/test/java/features/SignIn.feature:13
+  Given user on amazon Sign-In page                                                           # steps.SignInPageSteps.user_on_amazon_sign_in_page()
+  And user enter valid "ammer501@hotmail.com" email address or phone number in username field # steps.SignInPageSteps.user_enter_valid_email_address_or_phone_number_in_username_field(java.lang.String)
+  And user click on continue button                                                           # steps.SignInPageSteps.user_click_on_continue_button()
+  And user enter valid password "amirqa2021" in password Field                                # steps.SignInPageSteps.user_enter_valid_password_in_password_field(java.lang.String)
+  When user click on Sign-In button                                                           # steps.SignInPageSteps.user_click_on_sign_in_button()
+  And user should be able to see the valid "Hello, Amirouche" user name                       # steps.SignInPageSteps.user_should_be_able_to_see_the_valid_user_name(java.lang.String)
